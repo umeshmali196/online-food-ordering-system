@@ -1,0 +1,83 @@
+/* offers banner design */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.offerbanner {
+  -webkit-box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+  box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  height:130px;
+}
+.v3 {
+  border-bottom: 2px solid rgb(102, 120, 128);
+  width: 100%;
+}
+
+.card {
+  border: 0px;
+  border-radius: 0.25rem;
+}
+.card .card-body .card-text {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000000;
+}
+.page-footer {
+  margin-top: 5%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.card {
+  border: 1px solid #fff !important;
+  box-shadow: none !important;
+}
+.card:hover {
+  border-color: #d3d5df !important;
+  box-shadow: 0 4px 7px 0 rgba(218, 220, 230, 0.6) !important;
+}
+.resname {
+  font-size: 22px;
+  font-weight: 500;
+  word-break: break-word;
+}
+.catname {
+  color: #686b78;
+  font-size: 15px;
+}
+.offertext {
+  font-size: 13px;
+  font-weight: 600;
+  color: #8a584b;
+}
+
+ @media (min-width: 576px) { 
+  .offerbanner{
+    margin-top: 8%;
+  }
+ }
+
+@media (min-width: 768px) { 
+  .offerbanner{
+    margin-top: 7%;
+  }
+ }
+
+@media (min-width: 992px) { 
+  .offerbanner{
+    margin-top: 6%;
+  }
+ }
+
+@media (min-width: 1200px) { 
+  .offerbanner{
+    margin-top: 5%;
+  }
+ }
+ .offerName {
+  font-size: 1.07rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #daceb7;
+    background-color: #fffae6;
+}

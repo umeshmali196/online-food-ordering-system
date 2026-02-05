@@ -1,0 +1,59 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+ul li a {
+  color: #171a29;
+}
+
+ul li a:hover {
+  color: rgb(248, 158, 55)!important;
+}
+
+.active {
+  color: rgb(248, 158, 55);
+}
+
+
+.bg-dark {
+  background-color: #72f274 !important;
+  color: black !important;
+}
+
+.navbar-logo {
+  color: whitesmoke;
+  padding-left: 15px;
+  font-size: 35px;
+}
+
+.mybgbbanner {
+  background-color: #171a29;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-dark .navbar-brand {
+  color: rgb(0, 0, 0);
+}
+.navbar .dropdown-menu {
+  position: absolute !important;
+  margin-top: 0px;
+  border-top: 7px solid #fc8019;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  box-shadow: 0 8px 8px 0px #ffffff;
+}
+.dropdown-item {
+    padding: 5px!important;
+    padding-left: 30%!important;
+    border-radius: 0px !important;
+  }
+.dropdown-item:hover {
+  color: #fc8019 !important;
+  border-radius: 0px !important;
+}
+.f-md {
+  font-size: 10px !important;
+}

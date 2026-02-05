@@ -1,0 +1,120 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+ul li a {
+  color: #171a29;
+}
+.mybgbbanner{
+  position: sticky;
+  /* top: 0px;
+  left: 0px;
+  z-index: 1!important; */
+}
+.cardforresto {
+  background-color: transparent;
+  color: white;
+}
+.card .card-body .card-text {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+.vl{
+  border-right: 1px solid #e9e9eb;
+}
+#OFERS-block section {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.file-marker > div {
+  padding: 0 3px;
+  height: 140px;
+  margin-top: -1.8em;
+}
+
+.box-title {
+  background: #171a29 none repeat scroll 0 0;
+  display: inline-block;
+  padding: 0 10px 10px 8px;
+  margin-left: -2em;
+  font-size: medium;
+}
+
+.input-container {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.icon {
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  min-width: 130px;
+  text-align: center;
+  box-shadow: 0 3px 15px 0 rgba(40, 44, 63, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  height: 40px;
+  background-color: #fff;
+}
+.mytbl {
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  z-index: 1;
+}
+.searchinput {
+  box-shadow: 0 3px 15px 0 rgba(40, 44, 63, 0.1);
+  height: 40px;
+  background-color: #fff;
+  width: 285px;
+}
+.searchinput:focus {
+  box-shadow: none !important;
+  border: none !important;
+  box-shadow: 0 3px 15px 0 rgba(40, 44, 63, 0.1) !important;
+}
+.menuwidth{
+  position: relative;
+  width: 25%;
+  border-right: 1px solid #e9e9eb;
+}
+.vertical-menu {
+  width: 100%;
+  margin-top: 20px!important;
+  position: sticky;
+  top: 75px;
+  left: 0px;
+  z-index: 1!important;
+  color: black!important;
+}
+.vertical-menu a {
+  color: #171a29;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: right;
+  font-weight: bolder;
+  font-size: 18px;
+  background-color: white!important;
+}
+.vertical-menu a:hover{
+  color: #fc8019!important;
+}
+.menuselected{
+  color: #fc8019!important;
+  border-right: 7px solid #fc8019;
+}
+.vertical-menu a.active {
+  background-color: rgb(224, 154, 61);
+  color: white;
+}
+.itemwidth{
+  width: 70%;
+}
+.btn-shadow:hover,.btn-shadow:focus{
+  box-shadow: 0 2px 8px #d4d5d9!important;
+  border: 1px solid #bbe9bb!important;
+  outline: none!important;
+  outline: none!important;
+}

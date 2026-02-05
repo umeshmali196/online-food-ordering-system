@@ -1,0 +1,68 @@
+ .cimain{
+    width: 100%;
+    padding: 50px 0px;
+}
+.flex{
+    display: flex;
+}
+
+.aln-c{
+    align-items: center;
+}
+.W-60{
+    border-radius: 0 250px 250px 0;
+    box-shadow: 0 0 15px 5px rgb(0 0 0 / 20%);
+    padding: 8%;
+    /* z-index: -1;     */
+    padding-right: -60px;
+    background-color: #ffffff;
+    z-index: 2;
+    width: 65%;
+}
+
+.W-40{
+    width: 40%;
+    /* z-index: 1; */
+    position: absolute;
+    right:0;
+}
+
+.W-40 img{
+    width: 100%;
+
+}
+
+.au{
+    position: relative;
+}
+
+.au::before{
+    content: " ";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 18px;
+    left: 0;
+    top: 10px;
+}
+
+.pp1 p{
+    margin-top: 15px;
+    text-align: justify;
+    word-spacing: 5px;
+    color: #888888;
+    font-size: 17px;
+}
+
+.col2 button{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 05px;
+    font-size: 17px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+
+

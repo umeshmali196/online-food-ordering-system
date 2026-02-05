@@ -1,0 +1,44 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.bg-main {
+  margin-top: 5%;
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+}
+.mainhelpcard {
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  /* height: 90%; */
+}
+/* .menuwidth{
+    position: relative;
+    width: 20%;
+    border-right: 1px solid #e9e9eb;
+    background-color: #EDF1F7;
+    margin-top: 80px;
+
+  } */
+.vertical-menu {
+  width: 100%;
+  background-color: #edf1f7;
+  position: sticky;
+  top: 30px;
+  left: 0px;
+  z-index: 1 !important;
+}
+.vertical-menu a {
+  color: #171a29;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+}
+.vertical-menu a:hover {
+  color: #fc8019;
+}
+.vertical-menu a.active {
+  background-color: rgb(224, 154, 61);
+  color: white;
+}

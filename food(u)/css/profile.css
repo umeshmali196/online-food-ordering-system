@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.editdelete{
+    color: #fc8019;
+    font-weight: 600;
+    font-size: 14px;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-control:focus{
+    border-bottom: 1px solid #fc8019!important;
+    box-shadow: 0 1px 0 0 #fc8019!important;
+
+}
+.md-form label {
+     color: #222222 !important;
+     font-weight: normal!important;
+}
+ .md-form label.active {
+    color: #fc8019!important;
+} 
+.myinput:hover{
+    border: 1px solid #fc8019!important;
+}   

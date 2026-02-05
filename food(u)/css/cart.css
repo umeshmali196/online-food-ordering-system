@@ -1,0 +1,229 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.bg-color {
+  background-color: #e9ecee;
+}
+.card {
+  box-shadow: none !important;
+  border-radius: 0% !important;
+}
+.card-shadow{
+  border-radius: .25rem!important;
+  box-shadow: 0 1px 7px 1px #d4d5d9!important;
+}
+.card-shadow:hover{
+  border-radius: .25rem!important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: black;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #282c3f;
+  box-shadow: 0 3px 5px 0 rgba(40, 44, 63, 0.4);
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.myinput:focus {
+  border-bottom: 1px solid #fc8019 !important;
+  box-shadow: 0 1px 0 0 #fc8019 !important;
+}
+.md-form label {
+  color: #222222 !important;
+  font-weight: normal !important;
+}
+.md-form label.active {
+  color: #fc8019 !important;
+}   
+.offerinput {
+  border: 1px solid #d4d5d9 !important;
+  border-radius: 0px !important;
+  padding: 0 20px !important;
+  height: 50px;
+  font-size: 1.15rem;
+}
+.cartitems {
+  height: 400px !important;
+  overflow: auto;
+}
+.managqty {
+  position: relative;
+  display: inline;
+}
+#minus:focus,
+#plus:focus {
+  box-shadow: none !important;
+  outline: none;
+}
+.gotores {
+  margin-top: 30px;
+  padding: 11px 20px;
+  text-transform: uppercase;
+  background-color: #fc8019;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  text-align: center;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+.address-card {
+  box-shadow: none !important;
+  border: 1px solid #e9e9eb;
+}
+.address-card:hover {
+  box-shadow: 0 1px 10px 1px #e9ecee !important;
+}
+.creditCardForm {
+  background-color: #fff;
+  overflow: hidden;
+  padding: 25px;
+  color: #4c4e56;
+}
+.creditCardForm label {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.heading {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  color: #4c4e56;
+}
+
+.razorpay-payment-button {
+  width: 50%;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #2ec4a5;
+  color: white;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  height: 50px;
+  line-height: 50px;
+  background: #60b246;
+  /* font-size: 15px; */
+  margin-left: 2%;
+}
+.btn-applyoffer {
+  border: 1px dashed #a9abb2;
+  color: #535665;
+  font-size: 14px;
+  width: 100%;
+  height: 55px;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+.btn-applyoffer:hover {
+  box-shadow: 0 3px 8px #e9e9eb;
+}
+.btn-applyoffer:focus {
+  border: 1px dashed #a9abb2 !important;
+  outline: none !important;
+}
+.offerForm {
+  position: relative;
+  /* padding-bottom: 40px; */
+  display: block;
+}
+.inputDiv {
+  border: 1px solid #d4d5d9;
+  padding: 0;
+  display: block;
+  position: relative;
+  transform: translateZ(0);
+  /* box-shadow: 0 1px 7px 1px #d4d5d9; */
+}
+
+.offerinput {
+  background-color: transparent;
+  height: 50px;
+  padding-top: 0;
+  font-size: 1.15rem;
+  line-height: normal;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 17px;
+  margin: 0;
+  padding: 0 20px;
+  padding-top: 22px;
+  box-shadow: none;
+  box-sizing: border-box;
+  border-radius: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+.btnapplyoffer {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 110px;
+  background: #fc8019;
+  color: #fff !important;
+  height: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 1px 7px 1px #d4d5d9;
+}
+.offerName {
+  font-size: 1.07rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid #daceb7;
+  background-color: #fffae6;
+}
+.btnapply{
+  background: #fff;
+  color: #fc8019;
+  /* height: 36px; */
+  box-shadow: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #fc8019;
+}

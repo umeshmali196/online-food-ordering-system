@@ -1,0 +1,76 @@
+.card {
+  /* background-color: #fff; */
+  /* background-clip: border-box; */
+  border: 0px;
+  border-radius: 0.25rem;
+}
+
+.card .card-body .card-text {
+  font-size: .9rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.page-footer {
+  margin-top: 5%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.card{
+  /* box-shadow: none!important; */
+  border: 1px solid #fff!important;
+  box-shadow: none!important;
+}
+
+.card:hover{
+  /* padding: 20px; */
+  border-color: #d3d5df!important;
+  box-shadow: 0 4px 7px 0 rgba(218,220,230,.6)!important;
+}
+.resname{
+  font-size: 20px;
+  font-weight: 500;
+  word-break: break-word;
+}
+.catname{
+  color: #686b78;
+  font-size: 15px;
+  /* margin-top: 4px; */
+}
+.offertext{
+  font-size: 10px;
+  font-weight: 600; 
+  color: #8a584b;
+  
+}
+.btn {
+  box-shadow: none !important;
+}
+.tag {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  width: 0;
+  height: 0;
+  right: 0;
+  border-right: 9px solid transparent;
+  border-top: 9px solid #d22b3b;
+  z-index: 999;
+}
+.gotores {
+  margin-top: 30px;
+  padding: 11px 20px;
+  text-transform: uppercase;
+  background-color: #fc8019;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  text-align: center;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
