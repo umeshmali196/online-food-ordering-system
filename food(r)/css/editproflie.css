@@ -1,0 +1,32 @@
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.conten-body {
+  margin-top: 60px;
+  /* margin-left: 45px!important; */
+  width: 100%;
+  /* position: relative; */
+}
+.editbanner {
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+.form-control:focus {
+  color: #000000;
+  background-color: #fff;
+  border-color: #000000;
+  outline: 0;
+  box-shadow: none;
+}
+.btnadditem {
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  -webkit-box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+  box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+  color: #ffffff !important;
+  width: 150px;
+  border: 2px solid #ffffff;
+}
+

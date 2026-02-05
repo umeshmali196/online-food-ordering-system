@@ -1,0 +1,237 @@
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+/* #wrapper #content-wrapper {
+  width: 100%;
+} */
+
+/* .nav {
+  height: 60px;
+} */
+
+.tab {
+  margin-top: 8px;
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tab .nav-link {
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin: 10px;
+  padding-right: 20px;
+  padding-left: 10px;
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.25);
+  color: #787c89;
+}
+
+.tab .nav-link:focus {
+  border-radius: 6px;
+  margin: 10px;
+  padding-right: 20px;
+  padding-left: 10px;
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  -webkit-box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+          box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+  color: white;
+}
+
+.tab .active {
+  border-radius: 6px;
+  margin: 10px;
+  padding-right: 20px;
+  padding-left: 10px;
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  -webkit-box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+          box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+  color: white;
+}
+
+.tab a {
+  padding: 5px;
+}
+
+.tab i {
+  padding-right: 10px;
+}
+
+.tab span i {
+  color: #787c89;
+  padding-top: 18px;
+  padding-left: 3px;
+}
+
+.innercontent {
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+.btnshow {
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  -webkit-box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+          box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  color: white;
+}
+
+.card-footer button:focus {
+  outline: none;
+}
+
+.btnadd {
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  font-weight: 900;
+  color: white;
+  border-radius: 50px;
+}
+
+.btnadd:focus, .btnadd:hover {
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  font-weight: 900;
+  color: white;
+  border-radius: 50px;
+}
+
+.btnaccept {
+  background: linear-gradient(45deg, #43a047, #1de9b6) !important;
+  -webkit-box-shadow: 0 6px 20px 0 rgba(29, 233, 182, 0.5) !important;
+          box-shadow: 0 6px 20px 0 rgba(29, 233, 182, 0.5) !important;
+  height: 35px;
+  width: 95px;
+  color: #ffffff !important;
+  font-weight: 600;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.btnreject {
+  background: linear-gradient(45deg, #ff5252, #f48fb1) !important;
+  -webkit-box-shadow: 0px 5px 30px 0px #f34b6073 !important;
+          box-shadow: 0px 5px 30px 0px #f34b6073 !important;
+  height: 35px;
+  width: 95px;
+  color: #ffffff !important;
+  font-weight: 600;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.btnready {
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  -webkit-box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+          box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+  height: 35px;
+  width: 130px;
+  color: #ffffff !important;
+  font-weight: 900;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.btntrackorder {
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  height: 35px;
+  width: 130px;
+  color: #ffffff !important;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.btnviewdetails {
+  font-weight: bolder;
+  color: #26c6da !important;
+  background-color: transparent;
+}
+
+.mycard {
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  -webkit-box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+          box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+}
+
+.mycard .card-body {
+  padding: 24px;
+  -webkit-transition: -webkit-box-shadow 0.25s;
+  transition: -webkit-box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s, -webkit-box-shadow 0.25s;
+}
+
+ul.progtrckr {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.progtrckr li {
+  display: inline-block;
+  text-align: center;
+  line-height: 3.5em;
+}
+
+ul.progtrckr li.progtrckr-done {
+  position: relative;
+  color: #787c89;
+  font-weight: bolder;
+  float: left;
+  border-bottom: 4px solid #0288d1;
+}
+
+ul.progtrckr li.progtrckr-todo {
+  color: silver;
+  border-bottom: 4px solid silver;
+}
+
+ul.progtrckr li:after {
+  content: "\00a0\00a0";
+}
+
+ul.progtrckr li:before {
+  position: relative;
+  bottom: -2.5em;
+  float: left;
+  /* left: 50px; */
+  left: 50%;
+  line-height: 1em;
+}
+
+ul.progtrckr li.progtrckr-done:before {
+  content: "\2713";
+  color: white;
+  font-weight: bolder;
+  background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+  -webkit-box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+          box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+  height: 2.2em;
+  width: 2.2em;
+  line-height: 2.2em;
+  border: none;
+  border-radius: 2.2em;
+}
+
+ul.progtrckr li.progtrckr-todo:before {
+  content: "\039F";
+  color: silver;
+  background-color: white;
+  font-size: 2.2em;
+  bottom: -1.1em;
+}
+@media (max-width: 768px) {
+ .tab-content{
+  margin-top: 3rem!important;
+ }
+}

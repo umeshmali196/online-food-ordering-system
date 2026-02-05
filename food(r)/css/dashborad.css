@@ -1,0 +1,21 @@
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#wrapper #content-wrapper {
+  width: 100%;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.card-body .background-round {
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.18);
+}
+/*# sourceMappingURL=dashborad.css.map */
